@@ -1,0 +1,57 @@
+.grid{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.producto{
+    width:400px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.producto img{
+    width: 100%;
+    
+}
+
+.producto .icono{
+    width:40px;
+    background-color: gray;
+    border-radius: 50%;
+    margin: 15px 0px 0px 15px;
+}
+
+.producto button {
+    padding: 10px;
+    border: 0px;
+}
+
+.infoProducto {
+    background-color: rgb(34, 9, 59);
+    padding: 15px;
+    margin-top: 15px;
+    font-weight: 900;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 5px;
+}
+
+.infoProducto p {
+    margin-top: 0px;
+    color: white;
+}
+
+.infoProducto button{
+    background-color:  rgb(229, 200, 36);
+    width: 100%;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+button {
+    background-color: rgb(229, 200, 36);
+}
+
+
+body {
+    background-color: gray;
+}
